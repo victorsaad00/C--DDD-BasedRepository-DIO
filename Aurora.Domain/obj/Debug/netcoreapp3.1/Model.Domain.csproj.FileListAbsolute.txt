@@ -1,0 +1,8 @@
+D:\Code\bootcamp\C#_DDD\DDD-Model\aurora-api-project\Aurora.Domain\bin\Debug\netcoreapp3.1\Model.Domain.deps.json
+D:\Code\bootcamp\C#_DDD\DDD-Model\aurora-api-project\Aurora.Domain\bin\Debug\netcoreapp3.1\Model.Domain.dll
+D:\Code\bootcamp\C#_DDD\DDD-Model\aurora-api-project\Aurora.Domain\bin\Debug\netcoreapp3.1\Model.Domain.pdb
+D:\Code\bootcamp\C#_DDD\DDD-Model\aurora-api-project\Aurora.Domain\obj\Debug\netcoreapp3.1\Model.Domain.AssemblyInfoInputs.cache
+D:\Code\bootcamp\C#_DDD\DDD-Model\aurora-api-project\Aurora.Domain\obj\Debug\netcoreapp3.1\Model.Domain.AssemblyInfo.cs
+D:\Code\bootcamp\C#_DDD\DDD-Model\aurora-api-project\Aurora.Domain\obj\Debug\netcoreapp3.1\Model.Domain.csproj.CoreCompileInputs.cache
+D:\Code\bootcamp\C#_DDD\DDD-Model\aurora-api-project\Aurora.Domain\obj\Debug\netcoreapp3.1\Model.Domain.dll
+D:\Code\bootcamp\C#_DDD\DDD-Model\aurora-api-project\Aurora.Domain\obj\Debug\netcoreapp3.1\Model.Domain.pdb

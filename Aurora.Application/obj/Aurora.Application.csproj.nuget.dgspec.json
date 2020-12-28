@@ -1,0 +1,451 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Application\\Aurora.Application.csproj": {}
+  },
+  "projects": {
+    "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Application\\Aurora.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Application\\Aurora.Application.csproj",
+        "projectName": "Aurora.Application",
+        "projectPath": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Application\\Aurora.Application.csproj",
+        "packagesPath": "C:\\Users\\victor\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Domain\\Model.Domain.csproj": {
+                "projectPath": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Domain\\Model.Domain.csproj"
+              },
+              "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Infra.CrossCutting\\Model.Infra.CrossCutting.csproj": {
+                "projectPath": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Infra.CrossCutting\\Model.Infra.CrossCutting.csproj"
+              },
+              "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Service\\Model.Service.csproj": {
+                "projectPath": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Service\\Model.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Domain\\Model.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Domain\\Model.Domain.csproj",
+        "projectName": "Model.Domain",
+        "projectPath": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Domain\\Model.Domain.csproj",
+        "packagesPath": "C:\\Users\\victor\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Infra.CrossCutting\\Model.Infra.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Infra.CrossCutting\\Model.Infra.CrossCutting.csproj",
+        "projectName": "Model.Infra.CrossCutting",
+        "projectPath": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Infra.CrossCutting\\Model.Infra.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\victor\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Infra.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Infra.Data\\Model.Infra.Data.csproj": {
+                "projectPath": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Infra.Data\\Model.Infra.Data.csproj"
+              },
+              "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Service\\Model.Service.csproj": {
+                "projectPath": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Service\\Model.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Infra.Data\\Model.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Infra.Data\\Model.Infra.Data.csproj",
+        "projectName": "Model.Infra.Data",
+        "projectPath": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Infra.Data\\Model.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\victor\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Domain\\Model.Domain.csproj": {
+                "projectPath": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Domain\\Model.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[0.69.4, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Service\\Model.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Service\\Model.Service.csproj",
+        "projectName": "Model.Service",
+        "projectPath": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Service\\Model.Service.csproj",
+        "packagesPath": "C:\\Users\\victor\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Domain\\Model.Domain.csproj": {
+                "projectPath": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Domain\\Model.Domain.csproj"
+              },
+              "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Infra.Data\\Model.Infra.Data.csproj": {
+                "projectPath": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Infra.Data\\Model.Infra.Data.csproj"
+              },
+              "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Infra.Shared\\Infra.Shared.csproj": {
+                "projectPath": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Infra.Shared\\Infra.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Infra.Shared\\Infra.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Infra.Shared\\Infra.Shared.csproj",
+        "projectName": "Infra.Shared",
+        "projectPath": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Infra.Shared\\Infra.Shared.csproj",
+        "packagesPath": "C:\\Users\\victor\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Infra.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Domain\\Model.Domain.csproj": {
+                "projectPath": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Aurora.Domain\\Model.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

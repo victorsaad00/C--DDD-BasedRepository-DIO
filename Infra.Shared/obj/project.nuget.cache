@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OzZJkvssgkm5bTdVWXP4NQZU0g5FuuVW0haAMEQ6vFdZwENVa/sy+xICeIFcDcIYId6uX21wxPt4oVxY3W6bPg==",
+  "success": true,
+  "projectFilePath": "D:\\Code\\bootcamp\\C#_DDD\\DDD-Model\\aurora-api-project\\Infra.Shared\\Infra.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\victor\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

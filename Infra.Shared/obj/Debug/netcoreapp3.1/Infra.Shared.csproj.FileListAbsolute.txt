@@ -1,0 +1,12 @@
+D:\Code\bootcamp\C#_DDD\DDD-Model\aurora-api-project\Infra.Shared\obj\Debug\netcoreapp3.1\Infra.Shared.csprojAssemblyReference.cache
+D:\Code\bootcamp\C#_DDD\DDD-Model\aurora-api-project\Infra.Shared\obj\Debug\netcoreapp3.1\Infra.Shared.AssemblyInfoInputs.cache
+D:\Code\bootcamp\C#_DDD\DDD-Model\aurora-api-project\Infra.Shared\obj\Debug\netcoreapp3.1\Infra.Shared.AssemblyInfo.cs
+D:\Code\bootcamp\C#_DDD\DDD-Model\aurora-api-project\Infra.Shared\obj\Debug\netcoreapp3.1\Infra.Shared.csproj.CoreCompileInputs.cache
+D:\Code\bootcamp\C#_DDD\DDD-Model\aurora-api-project\Infra.Shared\bin\Debug\netcoreapp3.1\Infra.Shared.deps.json
+D:\Code\bootcamp\C#_DDD\DDD-Model\aurora-api-project\Infra.Shared\bin\Debug\netcoreapp3.1\Infra.Shared.dll
+D:\Code\bootcamp\C#_DDD\DDD-Model\aurora-api-project\Infra.Shared\bin\Debug\netcoreapp3.1\Infra.Shared.pdb
+D:\Code\bootcamp\C#_DDD\DDD-Model\aurora-api-project\Infra.Shared\bin\Debug\netcoreapp3.1\Model.Domain.dll
+D:\Code\bootcamp\C#_DDD\DDD-Model\aurora-api-project\Infra.Shared\bin\Debug\netcoreapp3.1\Model.Domain.pdb
+D:\Code\bootcamp\C#_DDD\DDD-Model\aurora-api-project\Infra.Shared\obj\Debug\netcoreapp3.1\Infra.Shared.csproj.CopyComplete
+D:\Code\bootcamp\C#_DDD\DDD-Model\aurora-api-project\Infra.Shared\obj\Debug\netcoreapp3.1\Infra.Shared.dll
+D:\Code\bootcamp\C#_DDD\DDD-Model\aurora-api-project\Infra.Shared\obj\Debug\netcoreapp3.1\Infra.Shared.pdb
